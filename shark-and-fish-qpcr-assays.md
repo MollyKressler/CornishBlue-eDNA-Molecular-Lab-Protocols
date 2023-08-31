@@ -1,7 +1,8 @@
-# Protocols for running species-specific qPCR assays for tilapia species
-### Rupert Collins, Andy Saxon, Martin Genner :: March 2022
+# Protocols for running species-specific qPCR assays for shark and fish species
+### Adapted from Rupert Collins, Andy Saxon, Martin Genner :: March 2022
+### Adpated by Molly M Kressler, Andy Saxon and Lucy Whitelegg :: 2023
 
-This protocol describes quantitative PCR (qPCR) assays to detect three species of tilapia cichlid present in Tanzanian aquaculture: _Oreochromis leucostictus_ (blue-spotted tilapia), _Oreochromis niloticus_ (Nile tilapia), and _Oreochromis urolepis_ (Wami tilapia). A tutorial video accompanying this protocol can be found at [https://youtu.be/dsI-viP6Oes](https://youtu.be/dsI-viP6Oes).
+This protocol describes quantitative PCR (qPCR) assays to detect three species of eleasmobranch and three species of fish  present in Cornwall and the Isles of Scilly (IOS) seawater : _Prionace glauca_ (blue shark) and _Scombrus scomber_ (Mackerel) (more to come, November 2023). A tutorial video accompanying the original forked protocol can be found at [https://youtu.be/dsI-viP6Oes](https://youtu.be/dsI-viP6Oes).
 
 ### Before you start
 
