@@ -64,6 +64,7 @@ Megamix | 4
 Template | 1 
 
 (skip steps 14, 16-18 from original protocol)
+
 19. In each well, add 9μl of megamix and 1µl of sample. Vortext, and divide each sample (e.g. WBT1.1) into 3 wells. 
 20. Add 1 μl of distilled water to negative control wells. 
 21. Gently tap the plate to cause the megamix to fall to the bottom of the wells.
