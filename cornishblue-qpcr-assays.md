@@ -55,7 +55,6 @@ Distilled water | 3 | 159
 11. Take your sample(s) out of the freezer. 
 12. Turn the qPCR machine on. 
 13. Place a qPCR plate into a plate holder and turn the light on. 
-14. Turn the plate upside down to prevent touching the same side of the well twice in the future.
 15. Add 9 μl of megamix to each qPCR well from right to left (see Table 3). Positive control (1µl of the standard) always goes in the top right well, and always added outside the eDNA room, in the qPCR lab. Negative control (distilled water from field) always in the bottom right well.
 
 ##### Table 3. Reagents to be pipetted into each qPCR well  
@@ -64,9 +63,7 @@ Reagent | Vol (μl)
 Megamix | 4
 Template | 1 
 
-16. Gently tap the plate to cause the megamix to fall to the bottom of the wells.
-17. Reorientate the qPCR plate so that it's facing the correct way.
-18. Add 1 μl of distilled water into each qPCR well from right to left. Push the water out of the pipette tip to form a bubble that can be placed on the side of each qPCR well. Make sure that you're successfuly pipetting 1 μl each time by visually checking the pipette tip. 
+(skip steps 14, 16-18 from original protocol)
 19. In each well, add 9μl of megamix and 1µl of sample. Vortext, and divide each sample (e.g. WBT1.1) into 3 wells. 
 20. Add 1 μl of distilled water to negative control wells. 
 21. Gently tap the plate to cause the megamix to fall to the bottom of the wells.
