@@ -28,19 +28,19 @@
 5. Select the "Moles -> Mass" tab, and paste the full DNA sequence (from table above), and set the DNA moles to 100 pmol.
 6. The result is a DNA mass of 2.132 &micro;g/&micro;L (= 2132 ng/&micro;L).
 
-| <img src="assets/molarity.png" width="500"> |
+| <img src="assets/kressler-moles2mass.png" width="500"> |
 | :---: |
 
 7. Now move to the "Mass -> Moles" tab and insert the DNA mass of 2.132 &micro;g.
 8. The result is a DNA copy number of 6.021e+13 (or 60 trillion, 210 billion) copies per microlitre.
 
-| <img src="assets/copies.png" width="500"> |
+| <img src="assets/kressler_mass2moles_copynumber.png" width="500"> |
 | :---: |
 
 9. To make a 10 ng/&micro;L stock in 1 mL volume, add 4.7 &micro;L of 100 pmol/&micro;L stock to 995.3 &micro;L TE buffer, and vortex thoroughly.
 10. Use an [online dilution calculator](http://www.desiquintans.com/dilutioncalc) as follows: 
 
-| <img src="assets/dna-conc.png" width="500"> |
+| <img src="assets/kressler_dna-conc.png" width="500"> |
 | :---: |
 
 11. Recalculate the DNA copy number of this 10 ng/&micro;L stock (= 2.824e+11 copy/&micro;L, or 282.4 billion copies).
