@@ -14,7 +14,7 @@
 | _Engraulis encrasicus_ | 111 | Euro anchovy |  CAT TCT AAT CGG TGG GTT CGG GAA TTG ACT AGT TCC TCT TAT ACT AGG GGC CCC AGA CAT GGC ATT CCC CCG AAT GAA CAA TAT GAG CTT TTG ACT CCT TCC TCC TTC TTT  |
 | _Sprattus sprattus_ | 88  | sardine | ACT GAC TAG TTC CCC TCA TGG TCG GAG CAC CAG ATA TGG CAT TCC CTC GAA TAA ACA ATA TGA GCT TCT GAC TAC TCC CTC CCT CAT T  |
 | _Alopias vulpinas_ | 131 | common thresher | TTA GCT GAC TAG CAA CTC TCC ACG GGG GCT CCA TTA AAT GAG AGA CCC CAT TAC TAT GAG CTC TCG GAT TCA TTT TCT TAT TCA CAG TAG GAG GTT TAA CAG GTA TCG TCT TAG CCA ACT CCT CCT TAG AT  |
-
+| _Scomber scombrus_ | 143 | Atlantic mackerel | TTATCGCAATCCCAACT GGCGTAAAAGTCTTTAG CTGACTTGCGACCCTT CACGGAGGTGACCTAAA ATGGGACGCCCCATTC TTATGAGCTCTCGGCTT TATCTTCCTCTTTACAGT GGGAGGTCTTACTGGG ATCGTCCTC  |
 
 #### Diluting quantification standards
 
@@ -33,24 +33,25 @@
 | _Engraulis encrasicus_ | 147 &micro;L |
 | _Sprattus sprattus_ | 278 &micro;L  | 
 | _Alopias vulpinas_ | 40 &micro;L | 
+| _Scomber scombrus_ | 40 &micro;L |
 
 
 3. Incubate for 5 min at room temperature, and vortex for 1 min.
 4. Use the online [NEBioCalculator ssDNA Convertor](https://nebiocalculator.neb.com/#!/ssdnaamt) to calculate the mass of single-stranded DNA given the molarity.
 5. Select the "Moles -> Mass" tab, and paste the full DNA sequence (from table above), and set the DNA moles to 100 pmol.
-6. The result is a DNA mass of 2.132 &micro;g/&micro;L (= 2132 ng/&micro;L).
+6. The result is a DNA mass of e.g. 3.420 &micro;g/&micro;L (= 3420 ng/&micro;L) for _Engraulis encrasicus_.
 
 | <img src="assets/kressler-moles2mass.png" width="500"> |
 | :---: |
 
-7. Now move to the "Mass -> Moles" tab and insert the DNA mass of 2.132 &micro;g.
-8. The result is a DNA copy number of 6.021e+13 (or 60 trillion, 210 billion) copies per microlitre.
+7. Now move to the "Mass -> Moles" tab and insert the DNA mass of 3.420 &micro;g.
+8. The result is a DNA copy number of 6.022e+13 (or 60 trillion, 220 billion) copies per microlitre for _Engraulis encrasicus_.
 
 | <img src="assets/kressler_mass2moles_copynumber.png" width="500"> |
 | :---: |
 
-9. To make a 10 ng/&micro;L stock in 1 mL volume, add x &micro;L of 100 pmol/&micro;L stock to 1000-x &micro;L water, and vortex thoroughly.
-10. Use an [online dilution calculator](http://www.desiquintans.com/dilutioncalc) as follows: 
+9. To make the 2nd dilution, use the [online dilution calculator](http://www.desiquintans.com/dilutioncalc). Type the DNA copies per &micro;L for each species into the 'Template concentrations', like '3420' for _Engraulis encrasicus_.
+10. To make a 10 ng/&micro;L stock in 1 mL volume, add x &micro;L of 100 pmol/&micro;L stock to 1000-x &micro;L water, and vortex thoroughly.
 
 | <img src="assets/kressler_dna-conc.png" width="500"> |
 | :---: |
@@ -75,3 +76,4 @@
 | _Engraulis encrasicus_ | 111 | 2.9&micro;L : 997.1&micro;L, 1.761e+11 |  5.7&micro;L : 994.3&micro;L |
 | _Sprattus sprattus_ | 88 | 3.7&micro;L : 996.3&micro;L, 2.221e+11 |  4.5&micro;L : 995.5&micro;L |
 | _Alopias vulpinas_ | 131 | 2.5&micro;L : 997.5&micro;L, 1.492e+11 | 6.7&micro;L : 993.3&micro;L |
+| _Scomber scombrus_ | 143 | 2.3&micro;L : 997.7&micro;L, 1.367e+11 | 7.3&micro;L : 992.7&micro;L |
