@@ -46,9 +46,9 @@
 | :---: |
 
 11. Recalculate the DNA copy number of this 10 ng/&micro;L stock (e.g. = 1.761e+11 copy/&micro;L).
-12. Now make the third diluation, down to a 1 billion copy/&micro;L stock by adding y &micro;L of 10 ng/&micro;L stock to 1000-y &micro;L water, and vortex thoroughly.
+12. Calculate the third dilution: take the new copy number from step 11 (but in billions format, e.g. 1.76e+11 = 176.1 billion), and enter that into the online concentration calculator, and reduce the desired final concentration to 1. Now make the third diluation down to a 1 billion copy/&micro;L stock by adding y &micro;L of 10 ng/&micro;L stock to 1000-y &micro;L water, as described in the green table, and vortex thoroughly.
 
-| <img src="assets/billion-copies.png" width="500"> |
+| <img src="assets/kressler-billion_copies.png" width="500"> |
 | :---: |
 
 13. These stocks should be frozen and kept in different boxes to the PCR reagents.
@@ -60,8 +60,8 @@
 ### Dilutions for four target species 
 | Species | Base Pairs | 2nd dilution, 10 ng/&micro;L | 3rd dilution, 1billion copies |
 | :--- | :--- | :--- | :--- |
-|  |  | Ratio Pure to Water, copies |  Ratio 2nd dilution to Water, copies |
-| _Lamna nasus_ | 109 | 3&micro;L : 997&micro;L, 1.793E+11 |    |
-| _Engraulis encrasicus_ | 111 | 2.9&micro;L : 997.1&micro;L, 1.761e+11 |    |
-| _Sprattus sprattus_ | 88 | 3.7&micro;L : 996.3&micro;L, 2.221e+11 |    |
-| _Alopias vulpinas_ | 131 | 2.5&micro;L : 997.5&micro;L, 1.492e+11 |    |
+|  |  | Ratio Pure to Water, copies |  Ratio 2nd dilution to Water |
+| _Lamna nasus_ | 109 | 3&micro;L : 997&micro;L, 1.793E+11 |  5.8&micro;L : 994.2&micro;L |
+| _Engraulis encrasicus_ | 111 | 2.9&micro;L : 997.1&micro;L, 1.761e+11 |  5.7&micro;L : 994.3&micro;L |
+| _Sprattus sprattus_ | 88 | 3.7&micro;L : 996.3&micro;L, 2.221e+11 |  4.5&micro;L : 995.5&micro;L |
+| _Alopias vulpinas_ | 131 | 2.5&micro;L : 997.5&micro;L, 1.492e+11 | 6.7&micro;L : 993.3&micro;L |
