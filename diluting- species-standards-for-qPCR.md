@@ -37,17 +37,21 @@
 | <img src="assets/kressler_mass2moles_copynumber.png" width="500"> |
 | :---: |
 
-9. To make a 10 ng/&micro;L stock in 1 mL volume, add 4.7 &micro;L of 100 pmol/&micro;L stock to 995.3 &micro;L TE buffer, and vortex thoroughly.
+9. To make a 10 ng/&micro;L stock in 1 mL volume, add x &micro;L of 100 pmol/&micro;L stock to 1000-x &micro;L water, and vortex thoroughly.
 10. Use an [online dilution calculator](http://www.desiquintans.com/dilutioncalc) as follows: 
 
 | <img src="assets/kressler_dna-conc.png" width="500"> |
 | :---: |
 
-11. Recalculate the DNA copy number of this 10 ng/&micro;L stock (= 2.824e+11 copy/&micro;L, or 282.4 billion copies).
-12. Dilute again down to a 1 billion copy/&micro;L stock by adding 3.5 &micro;L of 10 ng/&micro;L stock to 996.5 &micro;L TE buffer, and vortex thoroughly.
+11. Recalculate the DNA copy number of this 10 ng/&micro;L stock (e.g. = 1.761e+11 copy/&micro;L).
+12. Now make the third diluation, down to a 1 billion copy/&micro;L stock by adding y &micro;L of 10 ng/&micro;L stock to 1000-y &micro;L water, and vortex thoroughly.
 
 | <img src="assets/billion-copies.png" width="500"> |
 | :---: |
 
 13. These stocks should be frozen and kept in different boxes to the PCR reagents.
+14. The fourth stage dilution creates 100 &micro;L dilutions of ecreasing concentraiton by an order of mangitude. Prepare 7 ependorfs with 90 &micro;L of water.
+15. Into the first eppendorf, pippette 10 &micro;L of the third stage dilution (the 1 billion copies dilution). Vortex this throughly.
+16. From the first eppendorf, pipette 10 &micro;L, and dispense into the second eppendorf of 90 &micro;L H2O. Vortext thoroughly. Repeat this sequence for all eppendorfs to create 100 &micro;L dilutions of 1mill, 100k, 10k, 1k, 100, 10, 1 copies.
+17. Store these outside the DNA Clean Room. 
 
