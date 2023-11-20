@@ -55,3 +55,11 @@
 16. From the first eppendorf, pipette 10 &micro;L, and dispense into the second eppendorf of 90 &micro;L H2O. Vortext thoroughly. Repeat this sequence for all eppendorfs to create 100 &micro;L dilutions of 1mill, 100k, 10k, 1k, 100, 10, 1 copies.
 17. Store these outside the DNA Clean Room. 
 
+### Dilutions for four target species 
+| Species | Base Pairs | 2nd dilution, 10 ng/&micro;L | 3rd dilution, 1billion copies |
+| :--- | :--- | :--- | :--- |
+|  |  | Ratio Pure to Water, copies |  Ratio 2nd dilution to Water, copies |
+| _Lamna nasus_ | 109 | 3&micro;L : 997&micro;L, 1.793E+11 |    |
+| _Engraulis encrasicus_ | 111 | 2.9&micro;L : 997.1&micro;L, 1.761e+11 |    |
+| _Sprattus sprattus_ | 88 | 3.7&micro;L : 996.3&micro;L, 2.221e+11 |    |
+| _Alopias vulpinas_ | 131 | 2.5&micro;L : 997.5&micro;L, 1.492e+11 |    |
