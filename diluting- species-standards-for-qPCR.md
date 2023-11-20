@@ -24,7 +24,17 @@
 * Prepare the standards as follows (initial steps only need to be done once):
 
 1. Spin down the supplied oligo tubes to collect the dried oligonucleotides.
-2. If shipped at 4 nmol, add 40 &micro;L of TE buffer to dilute to 100 pmol/&micro;L.
+2. Follow the Synthesis Report for quantities of TE buffer to add to oligonucleotides, for the target dilution of 100 pmol/&micro;L. For the four species above add the following:
+
+
+| Species | TE Buffer Vol. |
+| :--- | :--- |
+| _Lamna nasus_ | 82 &micro;L  | 
+| _Engraulis encrasicus_ | 147 &micro;L |
+| _Sprattus sprattus_ | 278 &micro;L  | 
+| _Alopias vulpinas_ | 40 &micro;L | 
+
+
 3. Incubate for 5 min at room temperature, and vortex for 1 min.
 4. Use the online [NEBioCalculator ssDNA Convertor](https://nebiocalculator.neb.com/#!/ssdnaamt) to calculate the mass of single-stranded DNA given the molarity.
 5. Select the "Moles -> Mass" tab, and paste the full DNA sequence (from table above), and set the DNA moles to 100 pmol.
