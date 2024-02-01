@@ -1,6 +1,6 @@
 # qPCR Protocol - Genner Group 
 #### created by Jack A. Greenhalgh :: November 2020
-##### Updated for project repo for eDNA in Cornish Blue project, by Lucy Whitelegg and Andrew Saxon :: July 2023
+##### Updated for project repo for eDNA in Cornish Blue project, by Molly Kressler, Lucy Whitelegg and Andrew Saxon :: July 2023
 
 
 ### Consumables required
@@ -8,16 +8,37 @@
 * PCRmax Eco48 plate 
 * PCRmax Eco48 plate seals
 * qPCRBIO Probe Mix Lo-ROX
-* Primers
-* Probe 
-* Diluted blue shark standard to 1:1000 (amplified around cycle 30)
+* Species-specific Primers & Probes
+* Pipettes and filtered pipette tips (10-20 µL, 200 µL, 1000 µL)
+- 1.5 mL microcentrifuge tubes
+- Bench-top vortex
+- Bench-top tube spinner
+- Plastic tube racks
+- Plastic sample boxes
+- Lab note book
+- 10% bleach in squeezy wash bottle
+- 70% ethanol in squeezy wash bottle
+- Paper towels
+- Disposible gloves
+#### Reagents and aliquots required (suppliers and part numbers are presented in [Appendix 1](https://github.com/genner-lab/Molecular-Lab-Protocols/blob/main/tilapia-qpcr-assays.md#appendix-1)):
+
+- [IMPORTANT NOTE] These reagents need to be stored frozen in dedicated boxes at -20°C when not in use, and to avoid cross contamination the eDNA samples and amplification standards need to be stored in separate boxes from the assay reagents and from each other.
+    
+- Chai Bio Sahara Hot Start PCR Master Mix
+    
+- Nuclease free "ultrapure" water in 1 mL aliquots
+    
+- TE buffer in 1 mL aliquots
+    
+- Premixed primer+probe (PPM) in 50 µL aliquots
+    
+- Assay quantification standards at a one billion copy/µL stock solution with step-dilutions down to 1 copy/microL
 
 |Mastermix | Colour |
 |----|----|
 | qPCR Bio | Black |
 | Promega | Blue |
 |AmpliTagGold | Green |
-
 
 See Table 4 for a full list of qPCR parts and prices. 
 
@@ -64,7 +85,6 @@ Megamix | 4
 Template | 1 
 
 (skip steps 14, 16-18 from original protocol)
-
 19. In each well, add 9μl of megamix and 1µl of sample. Vortext, and divide each sample (e.g. WBT1.1) into 3 wells. 
 20. Add 1 μl of distilled water to negative control wells. 
 21. Gently tap the plate to cause the megamix to fall to the bottom of the wells.
@@ -80,13 +100,35 @@ Template | 1
 28. Press run. 
 
 ##### Table 4. qPCR parts and prices  
-Item | Quantity | Supplier | Part No. | Cost (£)
---- | --- | --- | --- | ---
-OneStep PCR Inhibitor Removal | 50 | Cambridge Bioscience | D6030 | 116.00
-PCRmax Eco48 plate seals | 50 | SLS (Scientific Laboratory Supplies) | MOL6350 | 33.57
-PCRmax Eco48 plates | 50 | SLS (Scientific Laboratory Supplies) | MOL6352 | 30.00
-qPCRBIO Probe Mix Lo-ROX, 500 reactions | 500 reactions | Insight Biotechnology | PB20.21-05 | 132.00
-1.5ml TubeOne Microcentrifuge Tube (Sterile) | 5 x 100 | StarLab UK Ltd | S1615-5510 | 14.28
-10/20µl XL Graduated TipOne Filter Tip (Sterile), Filter Refill | 10 boxes | StarLab UK Ltd | S1120-3710 | 36.98
-1000µl XL Graduated TipOne Filter Tip (Sterile), Filter Refill | 10 boxes | StarLab UK Ltd | S1122-1730 | 36.98
-200µl Graduated TipOne Filter Tip (Sterile), Filter Refill | 10 boxes | StarLab UK Ltd | S1120-8710 | 36.98
+| Item | Quantity | Supplier | Part No. | Cost (£) |  |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| OneStep PCR Inhibitor Removal | 50 | Cambridge Bioscience | D6030 | 116.00 |  |
+| PCRmax Eco48 plate seals | 50 | SLS (Scientific Laboratory Supplies) | MOL6350 | 33.57 |  |
+| PCRmax Eco48 plates | 50 | SLS (Scientific Laboratory Supplies) | MOL6352 | 30.00 |  |
+| qPCRBIO Probe Mix Lo-ROX, 500 reactions | 500 reactions | Insight Biotechnology | PB20.21-05 | 132.00 |  |
+| 1.5ml TubeOne Microcentrifuge Tube (Sterile) | 5 x 100 | StarLab UK Ltd | S1615-5510 | 14.28 |  |
+| 10/20µl XL Graduated TipOne Filter Tip (Sterile), Filter Refill | 10 boxes | StarLab UK Ltd | S1120-3710 | 36.98 |  |
+| 1000µl XL Graduated TipOne Filter Tip (Sterile), Filter Refill | 10 boxes | StarLab UK Ltd | S1122-1730 | 36.98 |  |
+| 200µl Graduated TipOne Filter Tip (Sterile), Filter Refill | 10 boxes | StarLab UK Ltd | S1120-8710 | 36.98<br> |  |
+#### Suppliers and part numbers
+
+|Type|Item|Supplier|Part no.|
+|:--|:--|:--|:--|
+|equipment|Open qPCR machine|Chai Bio|Single channel|
+|equipment|Pipette starter pack (4x pipettes)|Starlab UK|STARTERPACK42.5|
+|equipment|Vortamix Mini Vortexer|SLS|ARG1878|
+|equipment|Mini Fuge tube spinner|SLS|N2631-0017|
+|equipment|250 mL wash bottle|SLS|BOT9000|
+|equipment|96-well 1.5 mL microcentrifuge tube rack|Starlab UK|I2396-5048|
+|equipment|96-well 0.2 mL PCR tube rack|Starlab UK|E2396-5240|
+|equipment|81-tube freezer storage box|Starlab UK|I2381-5040|
+|consumable (plastic)|10/20 µL pipette filter tips|Starlab UK|S1120-3710|
+|consumable (plastic)|200 µL pipette filter tips|Starlab UK|S1120-8710|
+|consumable (plastic)|1000 µL pipette filter tips|Starlab UK|S1122-1730|
+|consumable (plastic)|1.5 mL microcentrifuge tube|Starlab UK|S1615-5510|
+|consumable (plastic)|0.1 mL qPCR 8-well tube strips|Chai Bio|S02132B|
+|consumable (reagent)|Chai Bio Sahara Hot Start PCR Master Mix|Chai Bio|R02151M|
+|consumable (reagent)|Nuclease-free ultrapure water|Thermo Fisher Scientific|10977035|
+|consumable (reagent)|qPCR assay primers and probes|Eurofins Genomics|as required|
+|consumable (reagent)|Zymo OneStep PCR Inhibitor Removal kit|Cambridge Bioscience|D6030|
+|consumable (reagent)|TE Buffer|Thermo Fisher Scientific|12090015|
