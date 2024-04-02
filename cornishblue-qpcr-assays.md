@@ -130,9 +130,10 @@ You would make one Megamix per species, since the Primers and Probes are species
 	 *Which reagents...?* **OTHER**
 	 *What properties...?* Fast 
 	 The reagent information may be available still in the machine. But you should input this if not.
-	[[<img src="assets/QuantStudioFlex7_ExperimentLoadingScreen2.jpg" width="850"> ]]
+| <img src="assets/IMG_1790.HEIC" width="600"> |
 22. Under the Define tab, define your targets and standards. Here, for all wells you need to set the **Reporter to FAM** and the **Quencher to NFQ-MBG**. This is a critical step. 
-	[[<img src="assets/QuantStudioFlex7_Experimentloadingscreen.jpg" width="850"> ]]
+| <img src="assets/IMG_1792.HEIC" width="600"> |
+| :---: |
 23. Format the plate using the Assign Tab. Label each well as either Unknown, Standard, or NTC. Input sample name into each well (this is tedious but will save you time later). MAKE SURE *you identify that the wells have FAM (non-SYBR) reagents and BHQ *
 24. Set thermal conditions (Table 4)
 ##### Table 4. Thermal conditions for qPCR with qPCRBIO Probe Mix Lo-Rox
