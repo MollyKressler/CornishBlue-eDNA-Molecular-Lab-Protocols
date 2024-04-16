@@ -51,7 +51,7 @@ See Table 4 for a full list of qPCR parts and prices.
 6. In a new 1.5 mL tube, add your probe, primers and water to make a Primer Probe Mix (see Table 1). 
 
 ##### Table 1. Reagents required to make 50 μl of Primer Probe Mix. Vortex all.
-These volumes are for a 10µL total reaction volume, adjust accordingly for greater reaction volumes. 
+These volumes are for a **10µL total reaction volume**, adjust accordingly for greater reaction volumes. 
 qPCR Probe Mix requires the PPM mix to have a 2:2:1 ratio of primer:primer:probe. So if you scale Table 1, keep this in mind. 
 You would make one PPM per species, since the Primers and Probes are species specific. 
 
@@ -63,11 +63,20 @@ You would make one PPM per species, since the Primers and Probes are species spe
 | Distilled water | N/A                     | 40                        | 76.8                      |
 | Total volume    | N/A                     | 50                        | 96                        |
 
+**For 20µL total reaction volume**
+
+| Reagent         | Concentration (nmol/μl) | Vol for 50 reactions (μl) | Vol for 96 reactions (µL) |
+| --------------- | ----------------------- | ------------------------- | ------------------------- |
+| Probe           | 100                     | 4                         | 7.68                      |
+| Forward primer  | 100                     | 8                         | 15.36                     |
+| Reverse primer  | 100                     | 8                         | 15.36                     |
+| Distilled water | N/A                     | 80                        | 153.6                     |
+| Total volume    | N/A                     | 100                       | 192                       |
 
 7. Put the reagents that you're not using back in the freezer. 
 8. Vortex all primers first. Make a megamix by adding your mastermix, primer probe mix and distilled water together in a 1 mL tube (see Table 2).  
 ##### Table 2. Reagents required to make the Megamix
-These volumes are for a 10µL total reaction volume and a template volume of 1µL, for one reaction and 96 reactions; adjust accordingly for greater reaction volumes. 
+These volumes are for a **10µL total reaction volume and a template volume of 1µL**, for one reaction and 96 reactions; adjust accordingly for greater reaction volumes. 
 You would make one Megamix per species, since the Primers and Probes are species specific.
 
 | Reagent          | Vol for 1 reaction (μl) | Vol for 96 reactions (μl) |
@@ -75,6 +84,17 @@ You would make one Megamix per species, since the Primers and Probes are species
 | Mastermix        | 5                       | 480                       |
 | Primer Probe Mix | 1                       | 96                        |
 | Distilled water  | 3                       | 288                       |
+| *Total Volume*     | *8*                       | *768*                       |
+
+**20µL total reaction volume and a template volume of 2µL**
+
+| Reagent          | Vol for 1 reaction (μl) | Vol for 96 reactions (μl) |
+| ---------------- | ----------------------- | ------------------------- |
+| Mastermix        | 10                      | 960                       |
+| Primer Probe Mix | 2                       | 192                       |
+| Distilled water  | 6                       | 576                       |
+| *Total Volume*     | *18*                      | *1728*                      |
+
 
 9. Take your megamix to the pre-PCR side of the main lab. If using the ESI labs, you can do either of the following options: 
 	1. Plate on Level 1 lab bench, steps:
@@ -105,10 +125,10 @@ You would make one Megamix per species, since the Primers and Probes are species
 14. Gently tap the plate to cause the megamix to fall to the bottom of the wells.
 
 ##### Table 3. Reagents to be pipetted into each qPCR well  
-| Reagent  | Vol (μl) |
-| -------- | -------- |
-| Megamix  | 9        |
-| Template | 1        |
+| Reagent  | Vol, 1µL template (μl) | Vol, 2µL template (µL) |
+| -------- | ---------------------- | ---------------------- |
+| Megamix  | 9                      | 18                     |
+| Template | 1                      | 2                      |
 
 15. In all wells except A12, B12, and H12, add 9μl of megamix and 1µl of sample. Before pipetting, vortex each sample. Samples (e.g. WBT1.3) are then replicated into three cells arranged in a column, i.e. A1, B1 and C1 have 9µL of megamix and 1µL of template from WBT1.3. Change pipette tips between EACH well. 
 16. Add a plastic seal (without cracks in it) to the top of the qPCR plate making sure that all the sides are tightly sealed by gently but firmly rubbing your thumb across the plate being extremely careful not to smudge or move the film as this will contaminate the plate.
@@ -129,11 +149,9 @@ You would make one Megamix per species, since the Primers and Probes are species
 	 *What type of experiment fo you want to set up?* Standard Curve
 	 *Which reagents...?* **OTHER**
 	 *What properties...?* Fast 
-	 The reagent information may be available still in the machine. But you should input this if not.
-| <img src="assets/IMG_1790.HEIC" width="600"> |
-22. Under the Define tab, define your targets and standards. Here, for all wells you need to set the **Reporter to FAM** and the **Quencher to NFQ-MBG**. This is a critical step. 
-| <img src="assets/IMG_1792.HEIC" width="600"> |
-| :---: |
+	 The reagent information may be available still in the machine. But you should input this if not. 
+	![[IMG_1790.jpg]]
+22. Under the Define tab, define your targets and standards. Here, for all wells you need to set the **Reporter to FAM** and the **Quencher to NFQ-MBG**. This is a critical step. ![[IMG_1792.jpg]]
 23. Format the plate using the Assign Tab. Label each well as either Unknown, Standard, or NTC. Input sample name into each well (this is tedious but will save you time later). MAKE SURE *you identify that the wells have FAM (non-SYBR) reagents and BHQ *
 24. Set thermal conditions (Table 4)
 ##### Table 4. Thermal conditions for qPCR with qPCRBIO Probe Mix Lo-Rox
