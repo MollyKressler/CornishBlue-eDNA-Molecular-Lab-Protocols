@@ -6,15 +6,18 @@
 
 ### Appendix 3
 
+
 #### Oligonucleotide sequences for quantification standards
 
-| Species | Base pairs | Common name | Oligonucleotide sequence (5&prime; -> 3&prime;) |
-| :--- | :--- | :--- | :--- |
-| _Lamna nasus_ | 109  | porbeagle | TGA ACG GTT TAC CCT CCC CTA GCT GGC AAC TTA GCA CAT GCC GGG GCC TCC GTT GAT CTG GCT ATC TTT TCC CTT CAC CTA GCG GGT ATC TCT TCA ATC TTA GCT TCA A |
-| _Engraulis encrasicus_ | 111 | Euro anchovy |  CAT TCT AAT CGG TGG GTT CGG GAA TTG ACT AGT TCC TCT TAT ACT AGG GGC CCC AGA CAT GGC ATT CCC CCG AAT GAA CAA TAT GAG CTT TTG ACT CCT TCC TCC TTC TTT  |
-| _Sprattus sprattus_ | 88  | sardine | ACT GAC TAG TTC CCC TCA TGG TCG GAG CAC CAG ATA TGG CAT TCC CTC GAA TAA ACA ATA TGA GCT TCT GAC TAC TCC CTC CCT CAT T  |
-| _Alopias vulpinas_ | 131 | common thresher | TTA GCT GAC TAG CAA CTC TCC ACG GGG GCT CCA TTA AAT GAG AGA CCC CAT TAC TAT GAG CTC TCG GAT TCA TTT TCT TAT TCA CAG TAG GAG GTT TAA CAG GTA TCG TCT TAG CCA ACT CCT CCT TAG AT  |
-| _Scomber scombrus_ | 143 | Atlantic mackerel | TTATCGCAATCCCAACT GGCGTAAAAGTCTTTAG CTGACTTGCGACCCTT CACGGAGGTGACCTAAA ATGGGACGCCCCATTC TTATGAGCTCTCGGCTT TATCTTCCTCTTTACAGT GGGAGGTCTTACTGGG ATCGTCCTC  |
+| Species                | Base pairs | Common name       | Oligonucleotide sequence (5&prime; -> 3&prime;)                                                                                                                                |
+| :--------------------- | :--------- | :---------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _Lamna nasus_          | 109        | porbeagle         | TGA ACG GTT TAC CCT CCC CTA GCT GGC AAC TTA GCA CAT GCC GGG GCC TCC GTT GAT CTG GCT ATC TTT TCC CTT CAC CTA GCG GGT ATC TCT TCA ATC TTA GCT TCA A                              |
+| _Engraulis encrasicus_ | 111        | Euro anchovy      | CAT TCT AAT CGG TGG GTT CGG GAA TTG ACT AGT TCC TCT TAT ACT AGG GGC CCC AGA CAT GGC ATT CCC CCG AAT GAA CAA TAT GAG CTT TTG ACT CCT TCC TCC TTC TTT                            |
+| _Sprattus sprattus_    | 88         | sardine           | ACT GAC TAG TTC CCC TCA TGG TCG GAG CAC CAG ATA TGG CAT TCC CTC GAA TAA ACA ATA TGA GCT TCT GAC TAC TCC CTC CCT CAT T                                                          |
+| _Alopias vulpinas_     | 131        | common thresher   | TTA GCT GAC TAG CAA CTC TCC ACG GGG GCT CCA TTA AAT GAG AGA CCC CAT TAC TAT GAG CTC TCG GAT TCA TTT TCT TAT TCA CAG TAG GAG GTT TAA CAG GTA TCG TCT TAG CCA ACT CCT CCT TAG AT |
+| _Scomber scombrus_     | 143        | Atlantic mackerel | TTATCGCAATCCCAACT GGCGTAAAAGTCTTTAG CTGACTTGCGACCCTT CACGGAGGTGACCTAAA ATGGGACGCCCCATTC TTATGAGCTCTCGGCTT TATCTTCCTCTTTACAGT GGGAGGTCTTACTGGG ATCGTCCTC                        |
+| *Prionace glauca*      | 115        | Blue Shark        | CATCATTTCTTCTCCTCCTCGCCTCTGCTGGAGTTGAAGCCGGAGCAGGTACTGGTTGAACAGTTTATCCTCCATTAGCTAGTAACCTAGCACATGCTGGACCATCTGTTGATTT                                                            |
+
 
 #### Diluting quantification standards
 
@@ -26,14 +29,14 @@
 1. Spin down the supplied oligo tubes to collect the dried oligonucleotides.
 2. Follow the Synthesis Report for quantities of TE buffer to add to oligonucleotides, for the target dilution of 100 pmol/&micro;L. For the four species above add the following:
 
-
-| Species | TE Buffer Vol. |
-| :--- | :--- |
-| _Lamna nasus_ | 82 &micro;L  | 
-| _Engraulis encrasicus_ | 147 &micro;L |
-| _Sprattus sprattus_ | 278 &micro;L  | 
-| _Alopias vulpinas_ | 40 &micro;L | 
-| _Scomber scombrus_ | 40 &micro;L |
+| Species                | TE Buffer Vol. |
+| :--------------------- | :------------- |
+| _Lamna nasus_          | 82 &micro;L    |
+| _Engraulis encrasicus_ | 147 &micro;L   |
+| _Sprattus sprattus_    | 278 &micro;L   |
+| _Alopias vulpinas_     | 40 &micro;L    |
+| _Scomber scombrus_     | 40 &micro;L    |
+| *Prionace glauca*      | 143 µL         |
 
 
 3. Incubate for 5 min at room temperature, and vortex for 1 min.
@@ -68,12 +71,13 @@
 16. From the first eppendorf, pipette 10 &micro;L, and dispense into the second eppendorf of 90 &micro;L H2O. Vortext thoroughly. Repeat this sequence for all eppendorfs to create 100 &micro;L dilutions of 1mill, 100k, 10k, 1k, 100, 10, 1 copies.
 17. Store these outside the DNA Clean Room. 
 
-### Dilutions for four target species 
-| Species | Base Pairs | 2nd dilution, 10 ng/&micro;L | 3rd dilution, 1billion copies |
-| :--- | :--- | :--- | :--- |
-|  |  | Ratio Pure to Water, copies |  Ratio 2nd dilution to Water |
-| _Lamna nasus_ | 109 | 3&micro;L : 997&micro;L, 1.793E+11 |  5.8&micro;L : 994.2&micro;L |
-| _Engraulis encrasicus_ | 111 | 2.9&micro;L : 997.1&micro;L, 1.761e+11 |  5.7&micro;L : 994.3&micro;L |
-| _Sprattus sprattus_ | 88 | 3.7&micro;L : 996.3&micro;L, 2.221e+11 |  4.5&micro;L : 995.5&micro;L |
-| _Alopias vulpinas_ | 131 | 2.5&micro;L : 997.5&micro;L, 1.492e+11 | 6.7&micro;L : 993.3&micro;L |
-| _Scomber scombrus_ | 143 | 2.3&micro;L : 997.7&micro;L, 1.367e+11 | 7.3&micro;L : 992.7&micro;L |
+### Dilutions for  target species 
+| Species                | Base Pairs | 2nd dilution, 10 ng/&micro;L           | 3rd dilution, 1billion copies |
+| :--------------------- | :--------- | :------------------------------------- | :---------------------------- |
+|                        |            | Ratio Pure to Water, copies            | Ratio 2nd dilution to Water   |
+| _Lamna nasus_          | 109        | 3&micro;L : 997&micro;L, 1.793E+11     | 5.8&micro;L : 994.2&micro;L   |
+| _Engraulis encrasicus_ | 111        | 2.9&micro;L : 997.1&micro;L, 1.761e+11 | 5.7&micro;L : 994.3&micro;L   |
+| _Sprattus sprattus_    | 88         | 3.7&micro;L : 996.3&micro;L, 2.221e+11 | 4.5&micro;L : 995.5&micro;L   |
+| _Alopias vulpinas_     | 131        | 2.5&micro;L : 997.5&micro;L, 1.492e+11 | 6.7&micro;L : 993.3&micro;L   |
+| _Scomber scombrus_     | 143        | 2.3&micro;L : 997.7&micro;L, 1.367e+11 | 7.3&micro;L : 992.7&micro;L   |
+| *Prionace glauca*      | 115        | 2.8µL : 997.2µL                        | 5.9µL : 994.1µL               |
