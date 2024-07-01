@@ -48,8 +48,7 @@ One Metaprobe 2.0 sample consists of 3 cotton-gauze rolls suspended in 98% ethan
 3. Prepare tubes of extraction (ATL) buffer and proteinase K (20µg/µL). In a 30mL falcon tube with a conical base, vortex together 540 µL of extraction ATL buffer and 60 µL of proteinase K. Vortex immediately and place in a tube rack. 
 4. To prepare rolls of gauze samples, using fine tip tweezers remove the rolls of gauze from the tubes of ethanol and place them in a petri dish. Allow the samples to sit in the petri dishes for 5-8 minutes, so some of the ethanol can evaporate. 
 5. Cut three small pieces (~ 2x2 cm) from each roll of gauze in a Petri dish. Try to take small pieces of gauze from different part of the roll in order to have pieces from different sections of the roll of gauze (see picture and hashed squares). Place all three cuts into the same falcon tube with extraction buffer and proteinase K. Label the tube according to the sample number. 
-| <img src="assets/gauzecuts_example.png" width="750"> |
-| :---: |
+| <img src="assets/gauzecuts_example.png" width="250"> |
 
 6. Change scissors and tweezers between each roll of gauze (i.e. sampling replicate) Place used scissors and tweezers into a small 10% bleach bath, fully submerging the tools. Let them soak for 5-10 minutes before placing them on blue roll to air-dry. They should air-dry for a few minutes (3-5) before being used for any successive sampling replicates. 
 7. Incubate the cut samples in the falcon tubes with caps on overnight in an oven at 50ºC. 
