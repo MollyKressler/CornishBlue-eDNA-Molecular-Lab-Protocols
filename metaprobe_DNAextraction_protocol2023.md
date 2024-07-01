@@ -67,6 +67,7 @@ One Metaprobe 2.0 sample consists of 3 cotton-gauze rolls suspended in 98% ethan
 | --------- | --------- | ------------------------ |
 | 24+1 (25) | 9625µL    | 9625µL                   |
 | 1         | 385µL     | 385µL                    |
+
 *Table 1. Volumes for Step 7 master mix of Al buffer and ethanol*
 
 8. Into each 350µL of supernatant, add 700 µL of this mastermix to your supernatant, and vortex each samples IMMEDIATELY (important). You will know you have mixed sufficiently when the liquid in the tube looks clear and smooth, and not bumpy or textured.
