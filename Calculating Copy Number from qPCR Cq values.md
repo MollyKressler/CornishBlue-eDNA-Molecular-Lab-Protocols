@@ -116,81 +116,9 @@ This protocol is very lightly adapted from this [Genner lab protocol](https://gi
 
 ## Step (4) tidy R code for calculating copies of DNA from Cq mean values using NEBio calculators standard curve estimates 
 1. In addition to having completed Steps 1-3 from this protocol you will need to have run field samples through the [qPCR protocol](https://github.com/MollyKressler/CornishBlue-eDNA-Molecular-Lab-Protocols/blob/main/cornishblue-qpcr-assays.md), saved the experiment results as xlsx, and transformed them in R into data frames organised such that each row is one sample with the 'Cq.Mean' value and 'Assay.Role' for all the replicates of that sample (three replicates, if you followed the protocol), with samples identified by 'Sample.Name'. I'll refer to this data frame as your 'data' from here on.
-2. The following R code will calculate the number of copies in each field sample of your data, and assign them to a new column labelled 'species.copies'. I recommend modifying this to have your study species replace 'species', e.g. if you study blue sharks you could set 'species.copies' to 'pglauca.copies'. 
-**Note:** The units of 'yourspecies.copies' will depend on the concentration of your standards and your qPCR protocol. Following the [qPCR protocol](https://github.com/MollyKressler/CornishBlue-eDNA-Molecular-Lab-Protocols/blob/main/cornishblue-qpcr-assays.md), the [protocol for diluting standards](https://github.com/MollyKressler/CornishBlue-eDNA-Molecular-Lab-Protocols/blob/main/diluting-%20species-standards-for-qPCR.md), and this protocol, should yield copy numbers at a concentration of 'n' copies/&micro;L.  
+2. For R code to calculate copy numbers for samples and laboratotry negative and positive controls, see the following R documents: [Field & Lab Positive and Negative controls](https://github.com/MollyKressler/eDNA_in_Cornish_blue_repo/blob/main/eDNA_pipeline2calculatecopies_forLabControls.R), [Samples](https://github.com/MollyKressler/eDNA_in_Cornish_blue_repo/blob/main/eDNA_pipeline2calculatecopies_forSamples.R)
 
-```{r}
-pacman::p_load(dplyr,lubridate,readr,readxl,lubridate,stringr) # pacman is a package to allow for multuple package upload an update within one line. 
-
-#################################
-## - Tidy NEBio Calculator results from Standard Curve Tests  
-#################################
-
-## import excel sheet with numbers 
-
-	neb <- read_excel('yourstandardcurveResultsfile.xlsx',.name_repair = 'universal', col_types = c('text','text','numeric','numeric','numeric','numeric','date'))%>%
-		mutate(dateofassay=as_date(dateofassay)) 
-		# '.name_repair' argument converts spaces in header names to '_'	
-		# 'col_types' argument tells read_excel what the structure of each variable is. If you set up your neb file as I show above, this will be the appropriate code. If not you may need to modify what is 'text', 'numeric', and 'date'.
-		
-	neb # check to see it loaded correctly
-
-#################################
-## - Calculate Copies   
-#################################
-
-## import species tidyed qPCR results 
-
-	data <- read.csv('data.csv')%>%
-		as_tibble()%>%
-		mutate(Cq.Mean = as.numeric(Cq.Mean))
-		
-	data # check - are the headers as described above? 
-	
-	## We need to separate out the standards and negative controls bc they get lost in the grouping and slicing because of common naming of standards across test assays.
-	
-	controls_data <- data%>%filter(Assay.Role != 'Unknown') # this now holds all tests positive controls (standards of known concentrations) and negative controls (purified water).
-	
-	data <- data %>% filter(Assay.Role == 'Unknown') # this now holds the test results for all replicates without the controls.
-
-##### Define function 
-## using NEBio standard curve equation (species specific)
-
-	calculate_copies <- function(intercept, slope, Cq.Mean) {
-		copies <- 10^((Cq.Mean - intercept)/slope)
-		return(copies)
-		}
-
-##### Apply function 
-## to data and controls separately, to calculate the number of copies per unit of sample
-
-	data2 <- data %>%
-		group_by(Sample.Name) %>%
-		slice_head()%>% ## first: need to filter down to only one row for each replicate and use the Cq mean
-		mutate(intercept = as.numeric(neb %>% filter(sp == 'yourspecies') %>% select(intercept)),
-			slope = as.numeric(neb %>% filter(sp == 'yourspecies') %>% select(slope)), 
-			r.squared = as.numeric(neb %>% filter(sp == 'yourspecies') %>% select(r.squared)), 
-			efficiency = as.numeric(neb %>% filter(sp == 'yourspecies') %>% select(efficiency)))%>% # bring in the standard curve information and statistics
-		mutate(yourspecies.copies = calculate_copies(intercept, slope, Cq.Mean))%>% # calculate copies using linear formula
-		replace_na(list(yourspecies.copies = 0)) # where Cq.Mean was NA, and therefore copies is NA, replace with a 0. 
-		
-		summary(data2) # NAs are fine in Cq.Mean and Cq because they are from samples that never amplified (i.e. they have no detectable traces of that species). In the pipe above, the final line adjusts the copies estimate to 0 for these cases.
-
-	controls_copies <- controls_data %>%
-		mutate(intercept = as.numeric(neb %>% filter(sp == 'yourspecies') %>% select(intercept)),
-			slope = as.numeric(neb %>% filter(sp == 'yourspecies') %>% select(slope)), 
-			r.squared = as.numeric(neb %>% filter(sp == 'yourspecies') %>% select(r.squared)), 
-			efficiency = as.numeric(neb %>% filter(sp == 'yourspecies') %>% select(efficiency)))%>% # bring in the standard curve information and statistics
-		mutate(yourspecies.copies = calculate_copies(intercept, slope, Cq.Mean))%>% # calculate copies using linear formula
-		replace_na(list(yourspecies.copies = 0)) # where Cq.Mean was NA, and therefore copies is NA, replace with a 0. 
-		
-
-## Save files  
-	write.csv(data2, 'copies_perReplicate_notStandards_YOURSPECIES_WHICHASSAYS_MONTHYEAR.csv')
-	write.csv(controls_engraulis, 'resultsANDcopies_perStandard_andNegControl_YOURSPECIES_WHICHASSAYS_MONTHYEAR.csv')
-
-```
-
+**Following the [qPCR protocol](https://github.com/MollyKressler/CornishBlue-eDNA-Molecular-Lab-Protocols/blob/main/cornishblue-qpcr-assays.md), the [protocol for diluting standards](https://github.com/MollyKressler/CornishBlue-eDNA-Molecular-Lab-Protocols/blob/main/diluting-%20species-standards-for-qPCR.md), and this protocol, should yield copy numbers at a concentration of 'n' copies/&micro;L.  
 
 
 
